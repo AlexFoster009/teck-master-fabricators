@@ -23,3 +23,10 @@ Route::get('home' , function(){
 	return View::make('home');
 
 });
+
+Route::Get('services' , function(){
+
+
+	return View::make('services');
+
+});

@@ -1,6 +1,10 @@
 
 @extends('layouts.base')
 
+
+@section('title')
+Home | Teck Master Fabricators
+@stop
 @section('content')
 	
 
@@ -18,10 +22,10 @@
         <!-- Collection of nav links and other content for toggling -->
         <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="{{ URL::to('home') }}">Home</a></li>
+                <li><a href="{{ URL::to('services') }}">Services</a></li>
+                <li><a href="{{ URL::to('projects') }}">Projects</a></li>
+                <li><a href="{{ URL::to('contact') }}">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -43,7 +47,7 @@
 	<h1>Welcome to Teck Master Fabricators </h1>
 				<p>Teck Master is a new vibrant co. that specializes in welding near all metals and custom fabrication. The owner Ben Nadeau began the company in 2007, working from his garage doing overflow work for local welding shops and some residential projects like out door iron furniture, fire pits, house hold repairs. We have now become a small welding shop in the north end of Airdrie, AB. We still service residential customers as well as several high end home builders, Oilfield companies, Maintenance and Plumbing companies. Teck Master can look after needs such as sand blasting, primeing and powder coating. </p>
 
-		<button class=" btn btn-lg btn-danger learn-more">Learn More </button>
+		<button class=" btn btn-lg btn-danger learn-more" onclick="window.location.href='services'">Learn More </button>
 		 </div>
 </div>
 </div>

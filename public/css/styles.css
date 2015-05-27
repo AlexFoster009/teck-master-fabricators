@@ -5,7 +5,7 @@
 			background: #666;
 			position: fixed;}
 
-			.menu { background-color: #de342d; position: fixed; width: 100%; z-index: 1;}
+			.menu { background-color: #de342d;  width: 100%; z-index: 1; position: fixed;}
 			
 			.menu ul { float: right; }
 
@@ -53,3 +53,14 @@
 .footer-container {background-color: #333; height: 45px; margin-top:4%;}
 
 .footer-container p { color: white; margin-top: .5%;}
+
+
+.services-container { border-bottom: 1px dotted grey; width: 100%;}
+.service-header {margin-top: 5%; margin-bottom: 3%; }
+.service-header h1 { font-weight: bold; margin-bottom: 1%;}
+
+.service-content {margin-top: 3%;}
+.service-content img { display: block; margin: 0 auto; padding-top: 15px; padding-bottom: 15px;}
+.service-content p { font-size: 1.3em; padding: 25px;}
+
+.service-content h3 {color: #de342d; font-weight: lighter; margin-top: 3%;}
