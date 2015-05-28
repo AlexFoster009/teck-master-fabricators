@@ -24,9 +24,15 @@ Route::get('home' , function(){
 
 });
 
-Route::Get('services' , function(){
+Route::get('services' , function(){
 
 
 	return View::make('services');
 
 });
+
+
+
+Route::get('contact' , 'ContactController@showForm');
+
+Route::post('contact' , 'ContactController@handleFormPost');

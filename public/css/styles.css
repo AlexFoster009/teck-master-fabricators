@@ -64,3 +64,38 @@
 .service-content p { font-size: 1.3em; padding: 25px;}
 
 .service-content h3 {color: #de342d; font-weight: lighter; margin-top: 3%;}
+
+.form-container { margin-top: 7%;}
+
+.inner-addon { 
+    position: relative; 
+}
+
+.contact-container { border-bottom: 1px dotted grey; width: 100%;}
+.contact-header { margin-top: 5%; margin-bottom: 3%;}
+.contact-header h1 { font-weight: bold; margin-bottom: 1%;}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  12px; vertical-align: middle; }
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  40px; }
+.right-addon input { padding-right: 30px; }
+
+legend { color: #de342d ;}
+
+.upper-contact-info { margin-top: 3%;}
+
+   #map-canvas {
+        width: 500px;
+        height: 400px;
+         background-color: #CCC;
+      }
