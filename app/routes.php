@@ -31,7 +31,14 @@ Route::get('services' , function(){
 
 });
 
-
+Route::get('projects' , 'ProjectsController@index');
+Route::get('/staircases' , 'ProjectsController@staircases');
+Route::get('/interior-handrails' , 'ProjectsController@interiorhandrails');
+Route::get('/glass-handrails' , 'ProjectsController@glasshandrails');
+Route::get('/countertops' , 'ProjectsController@countertops');
+Route::get('/entry-gates' , 'ProjectsController@entrygates');
+Route::get('/custom-fabrication' , 'ProjectsController@customfab');
+Route::get('/furniture' , 'ProjectsController@furniture');
 
 Route::get('contact' , 'ContactController@showForm');
 
