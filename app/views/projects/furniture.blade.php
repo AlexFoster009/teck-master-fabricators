@@ -1,5 +1,10 @@
 @extends('layouts.base')
 
+@section('meta')
+<meta name="description" content="Furniture landing page, includes slider of furniture projects as well as links to other projects contained in this section.">
+<meta name="keywords" content="Welding, Custom Fabrication, Furniture, Stainless Steel, Airdrie">
+<meta name="author" content="Teck Master Fabricators Ltd">
+@stop
 
 @section('title')
 Projects - Furniture / Accessories| Teck Master Fabricators
@@ -56,10 +61,10 @@ Projects - Furniture / Accessories| Teck Master Fabricators
 
 <div class="slider-container col-md-12">	
 	<div class="galleria">
-    <img src="images/furniture/furniture-1.jpg">
-    <img src="images/furniture/furniture-2.jpg">
-    <img src="images/furniture/furniture-3.jpg">
-    <img src="images/furniture/furniture-4.jpg">
+    <img src="images/furniture/furniture-1.jpg" title="First image in the Furniture/Accesories projects slider." alt="This image shows a beautiful wooden table with steel accents.">
+    <img src="images/furniture/furniture-2.jpg" title="Second image in the Furniture/Accesories projects slider." alt="This image shows a stylish thick glass-topped coffee table with custom steel supports.">
+    <img src="images/furniture/furniture-3.jpg" title="Third image in the Furniture/Accesories projects slider." alt="This image shows a custom fabricated steel enclosure with a custom steel sink mounted on top.">
+    <img src="images/furniture/furniture-4.jpg" title="Fourth image in the Furniture/Accesories projects slider." alt="This image shows a decorative custom steen railing with below a countertop with custom steel back splash.">
    
 
 </div>
@@ -101,7 +106,7 @@ Projects - Furniture / Accessories| Teck Master Fabricators
 
 
 
-	<div class=" footer col-md-12 text-center footer-container"><p> &copy;Teck Master Fabricators - 2015</p></div>
+	<div class=" footer col-md-12 text-center footer-container"><p> &copy;Teck Master Fabricators Ltd - 2015</p></div>
 
 <script type="text/javascript">
 
@@ -119,6 +124,15 @@ Projects - Furniture / Accessories| Teck Master Fabricators
     scrollTop: $(".galleria").offset().top
 }, 1000);
         });
+
+
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64065342-1', 'auto');
+  ga('send', 'pageview');
  </script>
 
 

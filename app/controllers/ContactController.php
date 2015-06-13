@@ -38,7 +38,7 @@ if($validator->fails()){
 
 	});
 
-	return 'thanks';
+	return Redirect::to('thankyou');
 
 
 }

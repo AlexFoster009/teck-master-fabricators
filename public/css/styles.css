@@ -5,7 +5,7 @@
 			background: #666;
 			position: fixed;}
 
-			.menu { background-color: #de342d;  width: 100%; z-index: 1; position: fixed;}
+			.menu { background-color: #de342d;  width: 100%; z-index: 1; }
 			
 			.menu ul { float: right; }
 
@@ -120,3 +120,6 @@ legend { color: #de342d ;}
 .links-container a:hover {text-decoration: underline; color: #de342d;}
 
 .active-link {text-decoration: underline!important; color: #de342d!important; font-weight: bold;}
+
+
+

@@ -1,4 +1,9 @@
 @extends('layouts.base')
+@section('meta')
+<meta name="description" content="Staircases landing page, includes slider of staircase projects as well as links to other projects contained in this section.">
+<meta name="keywords" content="Welding, Custom Fabrication, Staircases, Stainless Steel, Airdrie">
+<meta name="author" content="Teck Master Fabricators Ltd">
+@stop
 
 
 @section('title')
@@ -56,12 +61,10 @@ Projects - Staircases | Teck Master Fabricators
 
 <div class="slider-container col-md-12">	
 	<div class="galleria">
-    <img src="images/staircases/staircases-1.jpg">
-    <img src="images/staircases/staircases-2.jpg">
-    <img src="images/staircases/staircases-3.jpg">
-    <img src="images/staircases/staircases-4.jpg">
-    <img src="images/staircases/staircases-5.jpg">
-    <img src="images/staircases/staircases-6.jpg">
+    <img src="images/staircases/staircases-1.jpg" title="First image within the Staircases projects slider." alt="This image shows a steel staircase with steel railings coming off a large porch.">
+    <img src="images/staircases/staircases-2.jpg" title="Second image within the Staircases projects slider." alt="This image shows a goregeous steel staircase that becomes larger towards the base of the structure.">
+    <img src="images/staircases/staircases-3.jpg" title="Third image within the Staircases projects slider." alt="This iamge shows a steel staircase with decorative handrails attached to a small wooden porch">
+   
    
 
 </div>
@@ -103,7 +106,7 @@ Projects - Staircases | Teck Master Fabricators
 
 
 
-	<div class=" footer col-md-12 text-center footer-container"><p> &copy;Teck Master Fabricators - 2015</p></div>
+	<div class=" footer col-md-12 text-center footer-container"><p> &copy;Teck Master Fabricators Ltd - 2015</p></div>
 
 <script type="text/javascript">
 
@@ -121,6 +124,14 @@ Projects - Staircases | Teck Master Fabricators
     scrollTop: $(".galleria").offset().top
 }, 1000);
         });
+
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64065342-1', 'auto');
+  ga('send', 'pageview');
  </script>
 
 

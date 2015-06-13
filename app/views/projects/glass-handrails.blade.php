@@ -1,4 +1,9 @@
 @extends('layouts.base')
+@section('meta')
+<meta name="description" content="Glass Handrails landing page, includes slider of glass handrail projects as well as links to other projects contained in this section.">
+<meta name="keywords" content="Welding, Handrails, Glass Handrails, Glass, Airdrie">
+<meta name="author" content="Teck Master Fabricators Ltd">
+@stop
 
 
 @section('title')
@@ -56,14 +61,14 @@ Projects - Glass Handrails | Teck Master Fabricators
 
 <div class="slider-container col-md-12">	
 	<div class="galleria">
-    <img src="images/glass-rails/glassrails-1.jpg">
-    <img src="images/glass-rails/glassrails-2.jpg">
-    <img src="images/glass-rails/glassrails-3.jpg">
-    <img src="images/glass-rails/glassrails-4.jpg">
-    <img src="images/glass-rails/glassrails-5.jpg">
-    <img src="images/glass-rails/glassrails-6.jpg">
-    <img src="images/glass-rails/glassrails-7.jpg">
-    <img src="images/glass-rails/glassrails-8.jpg">
+    <img src="images/glass-rails/glassrails-1.jpg" title="First image within the Glass Handrails projects slider." alt="This image shows large panes of glass fitted between steel pillars spanning accross the perimeter of an outdoor porch.">
+    <img src="images/glass-rails/glassrails-2.jpg" title="Second image within the Glass Handrails projects slider." alt="This image shows stainless steel handrails with glass fitted inside the space between the rails along side a staircase.">
+    <img src="images/glass-rails/glassrails-3.jpg" title="Third image within the Glass Handrails projects slider." alt="This image shows stainless steel bars fitted with large panes of glass on top of a staircase.">
+    <img src="images/glass-rails/glassrails-4.jpg" title="Fourth image within the Glass Handrails projects slider." alt="This image shows a large balcony with decorative steel bars with large panes of glass fitted between them.">
+    <img src="images/glass-rails/glassrails-5.jpg" title="Fifth image within the Glass Handrails projects slider." alt="This image shows a small deck with stainless steel support fitted with large panes of glass.">
+    <img src="images/glass-rails/glassrails-6.jpg" title="Sixth image within the Glass Handrails projects slider." alt="This image shows a modern style glass railing with a steel handrail along side a staircase.">
+    <img src="images/glass-rails/glassrails-7.jpg" title="Seventh image within the Glass Handrails projects slider." alt="This image shows a modern glass railing with a steel handrail along side a staircase.">
+    <img src="images/glass-rails/glassrails-8.jpg" title="Eighth image within the Glass Handrails projects slider." alt="This image shows a staircase accompanied by a glass railing with thin steel supports.">
    
 
 </div>
@@ -105,7 +110,7 @@ Projects - Glass Handrails | Teck Master Fabricators
 
 
 
-	<div class=" footer col-md-12 text-center footer-container"><p> &copy;Teck Master Fabricators - 2015</p></div>
+	<div class=" footer col-md-12 text-center footer-container"><p> &copy;Teck Master Fabricators Ltd - 2015</p></div>
 
 <script type="text/javascript">
 
@@ -123,6 +128,14 @@ Projects - Glass Handrails | Teck Master Fabricators
     scrollTop: $(".galleria").offset().top
 }, 1000);
         });
+
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64065342-1', 'auto');
+  ga('send', 'pageview');
  </script>
 
 

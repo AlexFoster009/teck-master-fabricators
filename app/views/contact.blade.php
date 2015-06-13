@@ -1,5 +1,10 @@
 @extends('layouts.base')
 @section('title')
+@section('meta')
+<meta name="description" content="Teck Master Contact Page. Include a from to get in touc with Teck Master Fabricators as well as a map marked with Teck Master's Location in Airdrie AB">
+<meta name="keywords" content="Welding, Custom Fabrication, Fabrication, Stainless Steel, Airdrie">
+<meta name="author" content="Teck Master Fabricators Ltd">
+@stop
 
 Contact | Teck Master Fabricators
 @stop
@@ -52,7 +57,7 @@ Contact | Teck Master Fabricators
 	<p>Bay 206, 118 East Lake Blvd NE</p>
 	<p> Airdrie, AB T4A 2G2</p>
 	<p>Phone: (403) 870-2173</p>
-	<p>Fax: (403) 980-1517</p>
+	
 	
 	</div>
 
@@ -111,7 +116,7 @@ Contact | Teck Master Fabricators
 
 
 
-<div class=" footer col-md-12 text-center footer-container"><p> &copy;Teck Master Fabricators - 2015</p></div>
+<div class=" footer col-md-12 text-center footer-container"><p> &copy;Teck Master Fabricators Ltd - 2015</p></div>
 
 
 	<script type="text/javascript">
@@ -125,6 +130,17 @@ Contact | Teck Master Fabricators
         var map = new google.maps.Map(mapCanvas, mapOptions)
       }
       google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64065342-1', 'auto');
+  ga('send', 'pageview');
+
 </script>
 @stop
 

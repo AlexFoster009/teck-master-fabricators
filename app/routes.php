@@ -31,6 +31,14 @@ Route::get('services' , function(){
 
 });
 
+
+Route::get('thankyou' , function(){
+
+
+	return View::make('thankyou');
+
+});
+
 Route::get('projects' , 'ProjectsController@index');
 Route::get('/staircases' , 'ProjectsController@staircases');
 Route::get('/interior-handrails' , 'ProjectsController@interiorhandrails');

@@ -1,5 +1,10 @@
 @extends('layouts.base')
 
+@section('meta')
+<meta name="description" content="Countertops projects page. includes slider of countertop projects as well as links to other projects contained in this section.">
+<meta name="keywords" content="Welding, Counters, Countertops, Stainless Steel, Airdrie">
+<meta name="author" content="Teck Master Fabricators Ltd">
+@stop
 
 @section('title')
 Projects - Counter Tops| Teck Master Fabricators
@@ -56,9 +61,9 @@ Projects - Counter Tops| Teck Master Fabricators
 
 <div class="slider-container col-md-12">	
 	<div class="galleria">
-    <img src="images/countertops/countertops-1.jpg">
-    <img src="images/countertops/countertops-2.jpg">
-    <img src="images/countertops/countertops-3.jpg">
+    <img src="images/countertops/countertops-1.jpg" title="First image within the Countertops projects sldier" alt="This image shows a stainless steel countertop that folds out of a cupboard.">
+    <img src="images/countertops/countertops-2.jpg" title="Second image within the Countertops projects sldier" alt="This image shows kitchen counters fitted with stainless steel countertops">
+    <img src="images/countertops/countertops-3.jpg" title="Third image within the Countertops projects sldier" alt="This image shows a stylish outdoor counter fitted with a stainless steel BBQ with stainless steel back splash and countertops.">
  
 
 </div>
@@ -100,7 +105,7 @@ Projects - Counter Tops| Teck Master Fabricators
 
 
 
-	<div class=" footer col-md-12 text-center footer-container"><p> &copy;Teck Master Fabricators - 2015</p></div>
+	<div class=" footer col-md-12 text-center footer-container"><p> &copy;Teck Master Fabricators Ltd - 2015</p></div>
 
 <script type="text/javascript">
 
@@ -118,6 +123,17 @@ Projects - Counter Tops| Teck Master Fabricators
     scrollTop: $(".galleria").offset().top
 }, 1000);
         });
+
+  
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64065342-1', 'auto');
+  ga('send', 'pageview');
+
+
  </script>
 
 

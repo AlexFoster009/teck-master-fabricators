@@ -10,9 +10,11 @@
 	<script src="js/galleria/galleria-1.4.2.min.js"></script>
 	<title>@yield('title')</title>
 
+@yield('meta')
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
 
-	<meta charset="UTF-8">
+
 	
 </head>
 <body>

@@ -1,5 +1,10 @@
 @extends('layouts.base')
 
+@section('meta')
+<meta name="description" content="Entry Gates landing page, includes slider of entry gate projects as well as links to other projects contained in this section.">
+<meta name="keywords" content="Welding, Custom Fabrication, Entry Gates, Stainless Steel, Airdrie">
+<meta name="author" content="Teck Master Fabricators Ltd">
+@stop
 
 @section('title')
 Projects - Entry Gates | Teck Master Fabricators
@@ -56,16 +61,16 @@ Projects - Entry Gates | Teck Master Fabricators
 
 <div class="slider-container col-md-12">	
 	<div class="galleria">
-    <img src="images/entry-gates/entrygates-1.jpg">
-   <img src="images/entry-gates/entrygates-2.jpg">
-    <img src="images/entry-gates/entrygates-3.jpg">
-   <img src="images/entry-gates/entrygates-4.jpg">
-     <img src="images/entry-gates/entrygates-5.jpg">
-     <img src="images/entry-gates/entrygates-6.jpg">
-     <img src="images/entry-gates/entrygates-7.jpg">
-     <img src="images/entry-gates/entrygates-8.jpg">
-    <img src="images/entry-gates/entrygates-9.jpg">
-    <img src="images/entry-gates/entrygates-10.jpg">
+    <img src="images/entry-gates/entrygates-1.jpg" title="First image within the Entry Gates projects slider" alt="This image shows an elegantly designed entry steel entry gate.">
+   <img src="images/entry-gates/entrygates-2.jpg" title="Second image within the Entry Gates projects slider" alt="This image shows a steel entry gate betwee nteo brick pillars. The gate has a slightly arched top.">
+    <img src="images/entry-gates/entrygates-3.jpg" title="Third image within the Entry Gates projects slider" alt="This image shows a steel entry gate with thick and thin steel bars fitted between two brick pillars.">
+   <img src="images/entry-gates/entrygates-4.jpg" title="Fourth image within the Entry Gates projects slider" alt="This image shows a slightly concaved steel entry gate leading to a back porch. ">
+     <img src="images/entry-gates/entrygates-5.jpg" title="Fifth image within the Entry Gates projects slider" alt="This image shows a large arched entry gate between two brick pillars.">
+     <img src="images/entry-gates/entrygates-6.jpg" title="Sixth image within the Entry Gates projects slider" alt="This image shows a beautiful entry gate leading to a back yard fitted between the house wall and a stucco pillar.">
+     <img src="images/entry-gates/entrygates-7.jpg" title="Seventh image within the Entry Gates projects slider" alt="This image shows a steel entry gate with decorative tips fitted between two brick pillars.">
+     <img src="images/entry-gates/entrygates-8.jpg" title="Eighth image within the Entry Gates projects slider" alt="This image shows a steel black entry gate fitted bewteen the walls of a home.">
+    <img src="images/entry-gates/entrygates-9.jpg" title="Nineth image within the Entry Gates projects slider" alt="This image shows a large decorative arched entry gate fitted between pillars.">
+    <img src="images/entry-gates/entrygates-10.jpg" title="Tenth image within the Entry Gates projects slider" alt="This image shows a steel entry gate fitted bewteen the walls of a home.">
    
 
 </div>
@@ -107,7 +112,7 @@ Projects - Entry Gates | Teck Master Fabricators
 
 
 
-	<div class=" footer col-md-12 text-center footer-container"><p> &copy;Teck Master Fabricators - 2015</p></div>
+	<div class=" footer col-md-12 text-center footer-container"><p> &copy;Teck Master Fabricators Ltd - 2015</p></div>
 
 <script type="text/javascript">
 
@@ -125,6 +130,19 @@ Projects - Entry Gates | Teck Master Fabricators
     scrollTop: $(".galleria").offset().top
 }, 1000);
         });
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64065342-1', 'auto');
+  ga('send', 'pageview');
+
+
+
  </script>
 
 

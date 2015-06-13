@@ -1,4 +1,9 @@
 @extends('layouts.base')
+@section('meta')
+<meta name="description" content="Projects landing page, includes slider of exterior railings projects as well as links to other projects contained in this section.">
+<meta name="keywords" content="Welding, Railings, Exterior Railings, Stainless Steel, Airdrie">
+<meta name="author" content="Teck Master Fabricators Ltd">
+@stop
 
 
 @section('title')
@@ -56,26 +61,26 @@ Projects | Teck Master Fabricators
 
 <div class="slider-container col-md-12">	
 	<div class="galleria">
-    <img src="images/exterior-rails/extrails-1.jpg">
-   <img src="images/exterior-rails/extrails-2.jpg">
-    <img src="images/exterior-rails/extrails-3.jpg">
-    <img src="images/exterior-rails/extrails-4.jpg">
-    <img src="images/exterior-rails/extrails-5.jpg">
-    <img src="images/exterior-rails/extrails-6.jpg">
-    <img src="images/exterior-rails/extrails-7.jpg">
-    <img src="images/exterior-rails/extrails-8.jpg">
-    <img src="images/exterior-rails/extrails-9.jpg">
-    <img src="images/exterior-rails/extrails-10.jpg">
-    <img src="images/exterior-rails/extrails-11.jpg">
-    <img src="images/exterior-rails/extrails-12.jpg">
-    <img src="images/exterior-rails/extrails-13.jpg">
-    <img src="images/exterior-rails/extrails-14.jpg">
-    <img src="images/exterior-rails/extrails-15.jpg">
-    <img src="images/exterior-rails/extrails-16.jpg">
-    <img src="images/exterior-rails/extrails-17.jpg">
-    <img src="images/exterior-rails/extrails-18.jpg">
-    <img src="images/exterior-rails/extrails-19.jpg">
-    <img src="images/exterior-rails/extrails-20.jpg">
+    <img src="images/exterior-rails/extrails-1.jpg" title="First image within the Exterior Handrail slider." alt="This image displays an exterior railing with sharp points inserted into a slightly arched brick wall.">
+     <img src="images/exterior-rails/extrails-2.jpg" title="Second image within the Exterior Handrail slider." alt="This image dispalys a high deck containing steel exterior railings and brick supports.">
+    <img src="images/exterior-rails/extrails-3.jpg" title="Third image within the Exterior Handrail slider." alt="This image shows a close up of a steel railing fitted inbetween two brick pillars.">
+    <img src="images/exterior-rails/extrails-4.jpg" title="Fourth image within the Exterior Handrail slider." alt="This image shows a brick supported balcony containing slightly curved steel railings fitted across the entirety of the deck.">
+    <img src="images/exterior-rails/extrails-5.jpg" title="Fifth image within the Exterior Handrail slider." alt="This images shows a steel railing with a slightly bent design fitted infront of a window.">
+    <img src="images/exterior-rails/extrails-6.jpg" title="Sixth image within the Exterior Handrail slider." alt="This images shows a ground level porch with steel railings fitted between two brick pillars that span accross the whole structure.">
+    <img src="images/exterior-rails/extrails-7.jpg" title="Seventh image within the Exterior Handrail slider." alt="This image shows a steel gate as well as steel railings that are working as handrails for a set of stone stairs.">
+    <img src="images/exterior-rails/extrails-8.jpg" title="Eighth image within the Exterior Handrail slider." alt="This image shows steel railings fittend between brick pillars. they have a slightly curved design and span accross the whole structure.">
+    <img src="images/exterior-rails/extrails-9.jpg" title="nineth image within the Exterior Handrail slider." alt="This image shows a small steel railing spanning accross a small brick wall.">
+    <img src="images/exterior-rails/extrails-10.jpg" title="Tenth image within the Exterior Handrail slider." alt="This image shows a deck with steel railings of an elegant design fitted between two white pillars.">
+    <img src="images/exterior-rails/extrails-11.jpg" title="eleventh image within the Exterior Handrail slider." alt="this image shows a steel railing with an elegant design working as handrails for a staircase.">
+    <img src="images/exterior-rails/extrails-12.jpg" title="Twelfth image within the Exterior Handrail slider." alt="This image shows a decorative porch fixture fitted between two pillars.">
+    <img src="images/exterior-rails/extrails-13.jpg" title="Thirteenth image within the Exterior Handrail slider." alt="this image shows decorztive steel rails spannign accoss the perimeter of a deck.">
+    <img src="images/exterior-rails/extrails-14.jpg" title="Fourteenth image within the Exterior Handrail slider." alt="This image displays two sturdy steel hand rails along side a set of stairs.">
+    <img src="images/exterior-rails/extrails-15.jpg" title="Fifthteeth image within the Exterior Handrail slider." alt="This image shows a single steel handrail along side a set of stairs.">
+    <img src="images/exterior-rails/extrails-16.jpg" title="sixteenth image within the Exterior Handrail slider." alt=" This image shows a steel hand rail beside a set of stairs mounted onto a brick wall.">
+    <img src="images/exterior-rails/extrails-17.jpg" title="Seventeenth image within the Exterior Handrail slider." alt="This image shows decorative steel enclosure for a garden. Mounted on top of a brick foundation.">
+    <img src="images/exterior-rails/extrails-18.jpg" title="Eighteenth image within the Exterior Handrail slider." alt="This image shows decorative 'Greyish' steel railings with a stylish design in the center spanning accross the perimeter of a deck.">
+    <img src="images/exterior-rails/extrails-19.jpg" title="Nineteenth image within the Exterior Handrail slider." alt="This image shows a steel staircase leading up to a porch as well as steelrailings that span accross the decks perimeter.">
+    <img src="images/exterior-rails/extrails-20.jpg" title="Twentieth image within the Exterior Handrail slider." alt="This image shows a deck lined in decorative steel railings as well as a wooden staircase with stel handrails.">
 
 </div>
 </div>
@@ -116,7 +121,7 @@ Projects | Teck Master Fabricators
 
 
 
-	<div class=" footer col-md-12 text-center footer-container"><p> &copy;Teck Master Fabricators - 2015</p></div>
+	<div class=" footer col-md-12 text-center footer-container"><p> &copy;Teck Master Fabricators Ltd - 2015</p></div>
 
 <script type="text/javascript">
 
@@ -134,6 +139,14 @@ Projects | Teck Master Fabricators
     scrollTop: $(".galleria").offset().top
 }, 1000);
         });
+
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64065342-1', 'auto');
+  ga('send', 'pageview');
  </script>
 
 
