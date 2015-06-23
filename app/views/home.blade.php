@@ -64,15 +64,17 @@ Home | Teck Master Fabricators
 				<div class="image-container"><img src="images/welder.png" title="Icon like Illustration of a man welding" alt="Circular red and yellow illustration of a man welding with a torch and mask" width="200px"></div>
 						<div class=" col-xs-12 col-md-11 col-md-offset-1 inner-content"> 
 								<div class="col-xs-12 col-md-4"><h2><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Custom Fabrications</h2> 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a placerat tellus. Proin viverra justo sit amet felis scelerisque blandit. Vestibulum efficitur ultrices ultricies. Fusce vel mi eget lorem vestibulum rutrum. Etiam at mauris eget metus aliquam imperdiet vulputate ac ligula. Vivamus sodales arcu eget justo dapibus, quis suscipit neque posuere. Curabitur rutrum diam et ipsum tempus, nec ullamcorper risus malesuada. Aenean in sem vel felis egestas tempus. Nulla vel nulla odio. Ut facilisis nunc quis nisi commodo, nec semper libero sollicitudin. Aliquam rutrum aliquam orci, eget lacinia lectus. Nunc lorem sem, sagittis vitae iaculis imperdiet, iaculis sed sapien. </p>
+							<p>Whether its straight railings or curved stairs, mild steel, stainless steel, forged steel or glass Teck Master can build what you need.
+								we specialize in custom work to suit your needs and we have the experience to see you project through to completion. </p>
 		
 								</div>
 								<div class="col-xs-12 col-md-4"><h2><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Great Service </h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a placerat tellus. Proin viverra justo sit amet felis scelerisque blandit. Vestibulum efficitur ultrices ultricies. Fusce vel mi eget lorem vestibulum rutrum. Etiam at mauris eget metus aliquam imperdiet vulputate ac ligula. Vivamus sodales arcu eget justo dapibus, quis suscipit neque posuere. Curabitur rutrum diam et ipsum tempus, nec ullamcorper risus malesuada. Aenean in sem vel felis egestas tempus. Nulla vel nulla odio. Ut facilisis nunc quis nisi commodo, nec semper libero sollicitudin. Aliquam rutrum aliquam orci, eget lacinia lectus. Nunc lorem sem, sagittis vitae iaculis imperdiet, iaculis sed sapien. </p>
+						<p>From site measuring to design and fabrication Teck Master looks after all your needs to completion,
+							including galvonizing, sand blasting, powder coating and finally installation. 
+								At Teck Master we always stand behind our product. </p>
 								</div>
 								<div class=" col-xs-12 col-md-4"><h2><span class="glyphicon glyphicon-tag" aria-hidden="true"></span>Best Price</h2> 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a placerat tellus. Proin viverra justo sit amet felis scelerisque blandit. Vestibulum efficitur ultrices ultricies. Fusce vel mi eget lorem vestibulum rutrum. Etiam at mauris eget metus aliquam imperdiet vulputate ac ligula. Vivamus sodales arcu eget justo dapibus, quis suscipit neque posuere. Curabitur rutrum diam et ipsum tempus, nec ullamcorper risus malesuada. Aenean in sem vel felis egestas tempus. Nulla vel nulla odio. Ut facilisis nunc quis nisi commodo, nec semper libero sollicitudin. Aliquam rutrum aliquam orci, eget lacinia lectus. Nunc lorem sem, sagittis vitae iaculis imperdiet, iaculis sed sapien. </p>
-
+								<p>At Tecck Master we dont stop at great service. Regardless if your project is one of a kind or a common design Teck Master will design and build to your specifications. We will provide a better product at the best possible price.</p>
 								</div>
 
 						</div>

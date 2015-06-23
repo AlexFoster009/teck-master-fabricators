@@ -37,7 +37,7 @@
 
 .inner-content { margin-top: 2%;  }
 
-.inner-content p { width: 65%;}
+.inner-content p { width: 65%; font-size: 1.1em;}
 
 
 
@@ -123,3 +123,8 @@ legend { color: #de342d ;}
 
 
 
+@media (max-width: 600px) {
+  .inner-content p{
+    width: 100%;
+  }
+}
